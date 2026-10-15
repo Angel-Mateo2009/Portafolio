@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: angel-mateo-portfolio
+    runtime: static
+    buildCommand: echo "No build required"
+    staticPublishPath: .
